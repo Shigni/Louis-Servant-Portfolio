@@ -1,0 +1,14 @@
+@import './global/global.scss';
+@import "./global/mixins";
+@import "./global/variables";
+
+@import "../components/Cards/cards.scss";
+@import "../components/Carrousel/carrousel.scss";
+@import "../components/Skills/skills.scss";
+@import "../components/AboutMe/aboutMe.scss";
+
+@import "../pages/Landing-page/landing-page.scss";
+@import "../pages/Project-page/project-page.scss";
+@import "../pages/Portfolio-page/portfolio-page.scss";
+@import "../pages/About-page/about-page.scss";
+@import "../components/Formation/formation.scss";

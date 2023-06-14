@@ -13,6 +13,9 @@
    @media screen and (min-width: 1220px) and (max-width: 1280px) {
     gap: 20px;
    }
+   @media screen and (max-width:500px) {
+    gap: 20px;;
+   }
 }
 
 .card_project{
@@ -72,6 +75,9 @@
     }
      @media screen and (max-width: 780px) {
       width: 480px;
+     }
+     @media screen and (max-width:500px) {
+      width: 400px;
      }
     @include boxShadow;
     img{

@@ -13,13 +13,13 @@ export function PortfolioPage() {
         {data &&
           data.map((data, id) => (
             <div className="card_project" key={id}>
-              <Link className="link-card-project" to={`/projects/${data.id}`}>
-                <Card
-                  cover={data.cover}
-                  image1={data.image1}
-                  subtitle={data.subtitle}
-                />
-              </Link>
+              {/* <Link className="link-card-project" to={`/projects/${data.id}`}> */}
+              <Card
+                cover={data.cover}
+                image1={data.image1}
+                subtitle={data.subtitle}
+              />
+              {/* </Link> */}
             </div>
           ))}
       </div>

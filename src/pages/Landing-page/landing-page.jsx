@@ -1,5 +1,6 @@
 import React from "react";
 // import "./landing-page.scss";
+import { Link } from "react-router-dom";
 import LinkedinLogo from "../../assets/logo/linkedin.svg";
 import GithubLogo from "../../assets/logo/github.svg";
 
@@ -10,8 +11,14 @@ export function LandingPage() {
         <h1>Louis Servant</h1>
         <p>Frontend developer</p>
         <div className="btn-box">
-          <a href="/portfolio">Portfolio</a>
-          <a href="/about">About</a>
+          <Link className="link-landing-page" to={"/portfolio"}>
+            Portfolio
+          </Link>
+          <Link className="link-landing-page" to={"/about"}>
+            About me
+          </Link>
+          {/* <a href="/portfolio">Portfolio</a>
+          <a href="/about">About</a> */}
         </div>
         <div className="links">
           <a

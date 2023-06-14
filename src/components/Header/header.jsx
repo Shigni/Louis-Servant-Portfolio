@@ -6,7 +6,9 @@ export function Header() {
   const title = "Louis.";
   return (
     <nav>
-      <h1 className="logo">{title}</h1>
+      <NavLink activeclassname="active" className="logo-nav-link" to="/">
+        <h1 className="logo">{title}</h1>
+      </NavLink>
       <div className="nav-links">
         <NavLink activeclassname="active" className="nav-link" to="/">
           Home

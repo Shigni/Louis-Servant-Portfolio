@@ -40,4 +40,25 @@
             width: 384px;
         }
     }
+
+    .link-back{
+        position: absolute;
+        border: 2px solid rgb(45, 45, 45);
+        background-color: rgb(21, 21, 21);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        top: 12%;
+        left: 20px;
+        @media screen and (max-width: 768px){
+            display: none;
+        }
+    }
+    .leftArrow-back{
+        position: relative;
+        top: 8px;
+        left: 10px;
+        color: rgb(31, 31, 31);
+        width: 15px;
+    }
 }

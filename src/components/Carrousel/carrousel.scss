@@ -21,15 +21,11 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
-    @include bradius-large;
+    @include bradius-small;
     opacity: 0;
-    
-; 
-    
-    @media screen and (min-width: $breakpoint-desktop) {
-        
-        @include bradius-small;
-    }
+    // @media screen and (min-width: $breakpoint-desktop) {  
+    //     @include bradius-small;
+    // }
 
     & img {
         @include fullscreen;
@@ -41,10 +37,6 @@
         bottom: 0%;
         mix-blend-mode: normal;
         @include bradius-small;
-
-        @media screen and (min-width: $breakpoint-desktop) {
-            @include bradius-large;
-        }
     }
 
     &__number {
@@ -95,28 +87,22 @@
 
 .leftArrowBox{
     cursor: pointer;
-    border-radius: 25px 0 0 25px;
+    border-radius: 10px 0 0 10px;
     position: absolute;
     left: 0;
     height: 100%;
     width: 70px;
     z-index: 10;
     background: $linear-arrow-left;
-    @media screen and (max-width:1024px) {
-        border-radius: 10px 0 0 10px;
-    }
 }
 
 .rightArrowBox{
     cursor: pointer;
-    border-radius: 0 25px 25px 0;
+    border-radius: 0 10px 10px 0;
     position: absolute;
     right: 0;
     height: 100%;
     width: 70px;
     z-index: 10;
     background: $linear-arrow-right;
-    @media screen and (max-width:1024px) {
-        border-radius: 0 10px 10px 0 ;
-    }
 }

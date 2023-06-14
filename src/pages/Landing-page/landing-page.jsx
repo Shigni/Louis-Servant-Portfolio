@@ -17,8 +17,6 @@ export function LandingPage() {
           <Link className="link-landing-page" to={"/about"}>
             About me
           </Link>
-          {/* <a href="/portfolio">Portfolio</a>
-          <a href="/about">About</a> */}
         </div>
         <div className="links">
           <a

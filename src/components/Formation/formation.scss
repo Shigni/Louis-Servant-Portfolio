@@ -7,11 +7,14 @@
     border-radius: 10px;
     padding: 20px;
     width: 40%;
+    border-top: 1px solid $accent-color;
+    border-left: 1px solid $accent-color;
     box-shadow: 5px 5px 10px 1px #0c0c0c;
     transform: translate(200%);
     animation: swipe 0.8s 0.3s ease forwards ;
     i {
         color:  white;
+        font-weight: 400;
     }
     @media screen and (max-width:1024px) {
         margin: auto;

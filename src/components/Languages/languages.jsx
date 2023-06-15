@@ -1,13 +1,13 @@
-import angularlogo from "../../assets/angular-logo.svg";
-import csslogo from "../../assets/css-logo.svg";
-import htmllogo from "../../assets/html-logo.svg";
-import jslogo from "../../assets/js-logo.svg";
-import reactlogo from "../../assets/react-logo.svg";
-import sasslogo from "../../assets/sass-logo.svg";
-import nodelogo from "../../assets/nodejs-logo.svg";
-import mysqllogo from "../../assets/mysql-logo.svg";
-import figmalogo from "../../assets/figma-logo.svg";
-import typescriptlogo from "../../assets/typescript-logo.svg";
+import angularlogo from "../../assets/logo/angular-logo.svg";
+import csslogo from "../../assets/logo/css-logo.svg";
+import htmllogo from "../../assets/logo/html-logo.svg";
+import jslogo from "../../assets/logo/js-logo.svg";
+import reactlogo from "../../assets/logo/react-logo.svg";
+import sasslogo from "../../assets/logo/sass-logo.svg";
+import nodelogo from "../../assets/logo/nodejs-logo.svg";
+import mysqllogo from "../../assets/logo/mysql-logo.svg";
+import figmalogo from "../../assets/logo/figma-logo.svg";
+import typescriptlogo from "../../assets/logo/typescript-logo.svg";
 
 export function Languages() {
   return (
@@ -18,7 +18,6 @@ export function Languages() {
       <ul className="languages-list">
         <li>
           <img src={htmllogo} alt="HTML" />
-
           <div className="scale five">
             <div></div>
             <div></div>
@@ -88,7 +87,7 @@ export function Languages() {
           </div>
         </li>
         <li>
-          <img src={mysqllogo} alt="MySql" />
+          <img className="mysql" src={mysqllogo} alt="MySql" />
           <div className="scale three">
             <div></div>
             <div></div>
@@ -98,7 +97,7 @@ export function Languages() {
           </div>
         </li>
         <li>
-          <img src={nodelogo} alt="NodeJS" />
+          <img className="nodejs" src={nodelogo} alt="NodeJS" />
           <div className="scale three">
             <div></div>
             <div></div>

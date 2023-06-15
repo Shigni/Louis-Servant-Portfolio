@@ -4,6 +4,8 @@
     position: relative;
     right: -10%;
     background-color: rgb(21, 21, 21);
+    border-top: 1px solid $accent-color;
+    border-left: 1px solid $accent-color;
     border-radius: 10px;
     padding: 20px;
     color: white;
@@ -12,6 +14,7 @@
     animation: swipe 0.8s 0.1s ease forwards ;
     i {
         color: white;
+        font-weight: 400;
     }
     @media screen and (max-width:1024px) {
         margin: 10vh auto 0;
@@ -30,6 +33,9 @@
             margin-top: 0;
         }
     }
+    h2{
+        color: $accent-color;
+    }
     h1{
         margin-top: 0;
         color: $accent-color
@@ -39,6 +45,7 @@
         opacity: 0;
         position: relative;
         animation: fade-in 0.8s 0.4s ease forwards ;
+        margin-bottom: 0;
         &::before{
             content: '';
             position: absolute;
@@ -49,5 +56,50 @@
             background: rgb(21, 21, 21);
             animation: showRight 1s 0.7s ease forwards ;
         }
+        @media screen and (max-width: 500px) {
+            margin-bottom: 16px;
+        }
+    }
+}
+
+.link-cv-download {
+    height: 50px;
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    background: rgb(21, 21, 21);
+    border: 2px solid $accent-color;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 19px;
+    color: $accent-color;
+    text-decoration: none;
+    font-weight: 600;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    @media screen and (max-width: 500px) {
+        position: initial;
+    }
+    &:hover{
+        color: rgb(21, 21, 21);
+        &::before{
+            width: 100%;
+        }
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: $accent-color;
+        z-index: -1;
+        transition: .5s;
     }
 }

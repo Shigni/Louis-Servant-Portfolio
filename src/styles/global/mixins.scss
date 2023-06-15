@@ -69,6 +69,14 @@
       transform: scale(1);
     }
   }
+
+  @keyframes scale-load {
+    100% {
+        transform: translateX(100%);
+        transform-origin: right;
+    }
+    
+}
   
   @keyframes fade-in {
     100% {

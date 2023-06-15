@@ -2,6 +2,7 @@ import CV from "../../assets/CV-Louis-Servant.pdf";
 
 export function AboutMe() {
   const cvdownload = CV;
+
   return (
     <div className="about-container">
       <h1>
@@ -22,6 +23,7 @@ export function AboutMe() {
         <br />
         (+33) 6 84 66 53 84
       </p>
+
       <a href={cvdownload} className="link-cv-download" download={cvdownload}>
         Mon CV
       </a>

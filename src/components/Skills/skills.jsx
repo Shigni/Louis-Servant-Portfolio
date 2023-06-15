@@ -1,4 +1,3 @@
-// import { Collapse } from "../Collapse/collapse";
 import { skills } from "../../data/skills";
 
 export function Skills() {
@@ -10,8 +9,10 @@ export function Skills() {
   ));
   return (
     <div className="skills-container">
-      <h1>Compétences</h1>
-      {skillList}
+      <h1>
+        Compétences <i class="ri-pencil-ruler-2-line"></i>
+      </h1>
+      <ul className="skills">{skillList}</ul>
     </div>
   );
 }

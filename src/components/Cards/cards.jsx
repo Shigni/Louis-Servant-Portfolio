@@ -1,4 +1,4 @@
-export function Card({ cover, image1, title, subtitle }) {
+export function Card({ cover, image1, subtitle }) {
   return (
     <article className="card-project">
       <img className="thumbnail" src={cover} alt="Project thumbnail" />

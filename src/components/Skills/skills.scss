@@ -1,49 +1,56 @@
 .skills-container {
+    position: relative;
+    right: 10%;
+    opacity: 0;
     background-color: rgb(21, 21, 21);
     color: white;
-    width: 45%;
-    height: 100%;
-    min-height: 700px;
+    width: 40%;
+    overflow: hidden;
     border-radius: 10px;
     padding:  20px ;
-    box-sizing: border-box;
-    @include boxShadow;
-    @media screen and (min-width:1025px) {
-        opacity: 0.50;
-        transform: translate(-50%);
-        animation: swipe 0.8s 0.1s ease forwards ;
+    box-shadow: 5px 5px 10px 1px #0c0c0c;
+    transform: translate(-200%);
+    animation: swipe 0.8s 0.4s ease forwards ;
+    margin-bottom: 40px;
+    i {
+        color: white;
     }
     @media screen and (max-width:1024px) {
-        flex-direction: column;
         margin: auto;
-        width: 90%;
+        width: 60%;
     }
-    // &:hover{
-    //     animation: open-skills 0.8s ease forwards;
-    //     li{
-    //         animation: display-test 0.8s 0.1s ease forwards ;
-    //         display: flex;
-    //     }
-    //     h1 {
-    //         writing-mode: horizontal-tb;
-    //         animation: swap-title 0.8 0.1 ease forwards;
-    //     }
-    // }
+    @media screen and (max-width:768px) {
+        width: 80%;
+        right: 5%;
+    }
+    @media screen and (max-width:500px) {
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        ul {
+            margin-top: 0;
+        }
+
+    }
+
+
     h1{
         margin-top: 0;
-        // writing-mode: vertical-rl;
+        color: $accent-color;
     }
-    
+    .skills{
+        padding: 0;
+    }
     li{ 
         filter: blur(4px);
-        // display: none;
         opacity: 0;
         position: relative;
         margin-bottom: 15px;
         list-style: none;
         padding-left: 10px;
-        border-left:3px solid white ;
-        animation: display-test 0.8s 0.1s ease forwards ;
+        border-left:3px solid $accent-color ;
+        animation: fade-in 0.8s 0.1s ease forwards ;
         &:nth-last-child(1){
             margin-bottom: 0px;
         }
@@ -59,38 +66,11 @@
         }
         @for $i from 2 through 18 {
             &:nth-child(#{$i}n)::before{
-                animation-delay: #{$i * 0.07}s          ;
+                animation-delay: #{$i * 0.1}s          ;
             }
             &:nth-child(#{$i}n){
-                animation-delay: #{$i * 0.07}s
+                animation-delay: #{$i * 0.1}s
             }
         }
-    }
-}
-
-@keyframes fade-in {
-    100% {
-      opacity: 1;
-      filter: blur(0);
-    }
-  }
-  @keyframes display-test {
-    100% {
-      opacity: 1;
-      filter: blur(0);
-    }
-  }
-
-  @keyframes open-skills {
-    100% {
-      width: 45%;
-    }
-  }
-@keyframes swap-title {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
     }
 }

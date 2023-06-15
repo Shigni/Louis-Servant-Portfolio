@@ -1,7 +1,5 @@
 import { NavLink } from "react-router-dom";
 
-import "./header.scss";
-
 export function Header() {
   const title = "Louis.";
   return (

@@ -50,7 +50,7 @@ export const data = [
     link: "https://github.com/Shigni/LouisServant_12_12022023",
     skill: "React, JavaScript, Scss",
     description:
-      "Pour la nouvelle version de l'application de coaching sportif qui doit permettre à l'utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brulées il fallit: Produire de la documentation technique, assurer la qualité des données de l'application, développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript et interagir avec un service Web",
+      "Pour la nouvelle version de l'application de coaching sportif qui doit permettre à l'utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brulées il fallait: Produire de la documentation technique, assurer la qualité des données de l'application, développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript et interagir avec un service Web",
   },
   {
     id: "Kasa",

@@ -1,7 +1,6 @@
 import React from "react";
-// import "./landing-page.scss";
 import { Link } from "react-router-dom";
-import LinkedinLogo from "../../assets/logo/linkedin.svg";
+import LinkedinLogo from "../../assets/logo/linkedin-logo.svg";
 import GithubLogo from "../../assets/logo/github.svg";
 
 export function LandingPage() {

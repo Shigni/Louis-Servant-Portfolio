@@ -5,7 +5,7 @@ import left from "../../assets/vector-left.svg";
 import { data } from "../../data/projets";
 import { Carrousel, Error } from "../../components";
 
-export function Project({ technos }) {
+export function Project() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -32,8 +32,8 @@ export function Project({ technos }) {
         </div>
         <Carrousel frames={framePics} />
         <p>{project.description}</p>
-        <a target="blank" href={project.link}>
-          Lien vers le repo du projet
+        <a className="link-project-page" target="blank" href={project.link}>
+          Code source
         </a>
       </div>
     )

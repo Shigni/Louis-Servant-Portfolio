@@ -1,4 +1,9 @@
 nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,6 +21,7 @@ nav{
         display: flex;
         height: 100%;
         .nav-link{
+            font-weight: bold;
             width: 150px;
             display: flex;
             align-items: center;
@@ -28,8 +34,9 @@ nav{
             }
     }
         .active {
+            color:$accent-color;
             background-color: rgb(31, 31, 31);
-            text-decoration: underline;
+            // text-decoration: underline;
             border-bottom: 2px solid rgb(31, 31, 31);
             border-left: 2px solid rgb(45, 45, 45);
             border-right: 2px solid rgb(45, 45, 45);

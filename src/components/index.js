@@ -5,3 +5,4 @@ export * from "./Cards/cards";
 export * from "./AboutMe/aboutMe";
 export * from "./Skills/skills";
 export * from "./Formation/formation";
+export * from "./Languages/languages";

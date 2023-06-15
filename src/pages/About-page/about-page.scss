@@ -1,25 +1,39 @@
 .about-page {
-    display: flex;
-    justify-content: center;
     width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 50px;
-    margin-top: 50px;
-    // min-height: 700px;
+    margin: 10vh auto 0;
+    padding-top: 40px;
     @media screen and (max-width:1024px) {
-        flex-direction: column;
+        padding-top: 0;
         margin: 20px auto;
         gap: 20px;
-        .aside{
-        width: 90%;
-        margin: auto;
-        gap: 20px;
     }
+    .blue-line{
+        filter: blur(2px);
+        opacity: 0;
+        position: fixed;
+        margin-top: -10vh;
+        background-color: $accent-color;
+        height: 0%;
+        width: 2px;
+        z-index: -1;
+        animation: line 1.5s ease forwards, fade-in 0.8s ease forwards;
     }
 }
 
-.aside {
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+@keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+
+@keyframes line {
+    100%{
+        height: 100vh;
+    }
 }

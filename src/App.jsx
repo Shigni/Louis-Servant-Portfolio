@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "remixicon/fonts/remixicon.css";
 import "./styles/index.scss";
 
 import { LandingPage, PortfolioPage, Project, AboutPage } from "./pages";

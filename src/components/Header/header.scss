@@ -17,10 +17,10 @@ nav{
         text-decoration: none;
         color: white;
     }
-    .nav-links{
+    .nav_links{
         display: flex;
         height: 100%;
-        .nav-link{
+        .nav_link{
             font-weight: bold;
             width: 150px;
             display: flex;
@@ -32,7 +32,17 @@ nav{
             @media screen and (max-width:768px) { 
                 width: 100px;
             }
-    }
+            @media screen and (max-width: 500px) { 
+                    display: none;     
+                    width: 200px;
+                    height: 10%;
+            }
+        }
+        .nav_link-active{
+            @media screen and (max-width: 500px) { 
+                display: flex;
+        }
+        }
         .active {
             color:$accent-color;
             background-color: rgb(31, 31, 31);
@@ -45,6 +55,24 @@ nav{
                     border-right: 0;
                 }
             }
+            @media screen and (max-width: 500px) { 
+                background-color: transparent;
+                border: none;
+        }
+        }
+    }
+    @media screen and (max-width: 500px){
+        .nav_links-active{
+            position: absolute;
+            right: 0;
+            margin-top: 10vh;
+            top: 0;
+            flex-direction: column;
+            align-items: center;
+            z-index: 3;
+            width: 100%;
+            height: 100vh;
+            transition: .4s;
         }
     }
     @media screen and (max-width:768px) { 
@@ -65,4 +93,43 @@ nav{
     background: rgb(24, 24, 24);
     animation: showRight 1s ease forwards ;
     animation-delay: .4s;
+}
+
+.button_class {
+    display: none;
+    @media screen and (max-width: 500px) {
+        position: sticky;
+        background: transparent;
+        border: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 4;
+        height: 10vh;
+        width: 10vh;
+        left: 100%;
+    }
+}
+
+
+.background_class {
+    display: none;
+    opacity: 0;
+    transition: 0.4s;
+}
+@media screen and (max-width: 500px){
+.background_class-active{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.8;
+    z-index: 1;
+    transition: 0.4s;
+}
 }

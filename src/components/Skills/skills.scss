@@ -2,7 +2,7 @@
     position: relative;
     right: 10%;
     opacity: 0;
-    background-color: rgb(21, 21, 21);
+    background-color: $background-darker;
     color: white;
     width: 40%;
     overflow: hidden;
@@ -64,7 +64,7 @@
             width: 100%;
             top: 0;
             right: 0;
-            background: rgb(21, 21, 21);
+            background: $background-darker;
             animation: showRight 1s 0.1s ease forwards;
         }
         @for $i from 2 through 18 {

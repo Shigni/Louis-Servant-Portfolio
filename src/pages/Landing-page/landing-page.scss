@@ -1,5 +1,5 @@
 .landing-page {
-    background-color: rgb(31, 31, 31);
+    background-color: $background-color;
     height: 90vh;
     margin-top: 10vh;
     display: flex;
@@ -22,7 +22,7 @@
         height: 100%;
         top: 0;
         right: 0;
-        background: rgb(31, 31, 31);
+        background: $background-color;
         animation: showRight 1s ease forwards ;
         animation-delay: .4s;
     }
@@ -39,7 +39,7 @@
         height: 100%;
         top: 0;
         right: 0;
-        background: rgb(31, 31, 31);
+        background: $background-color;
         animation: showRight 1s ease forwards ;
         animation-delay: .5s;
     }
@@ -86,7 +86,7 @@
         box-sizing: border-box;
         border-radius: 8px;
         font-size: 19px;
-        color: rgb(31, 31, 31);
+        color: $background-color;
         text-decoration: none;
         font-weight: 600;
         z-index: 1;
@@ -102,7 +102,7 @@
       right: 0;
       width: 100%;
       height: 100%;
-      background: rgb(31, 31, 31);
+      background: $background-color;
       animation: showRight 1s ease forwards ;
       animation-delay: .9s;
       z-index: 2;
@@ -115,7 +115,7 @@
 }
 
 .btn-box .link-landing-page:nth-child(2):hover{
-  color: rgb(31, 31, 31);
+  color: $background-color;
 }
 
 .btn-box .link-landing-page:nth-child(2)::before{
@@ -133,7 +133,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: rgb(31, 31, 31);
+  background: $background-color;
   z-index: -1;
   transition: .5s;
 }

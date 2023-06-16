@@ -28,7 +28,7 @@
         height: 100%;
         top: 0;
         right: 0;
-        background: rgb(31, 31, 31);
+        background: $background-color;
         animation: showRight 1s ease forwards ;
         animation-delay: .4s;
     }
@@ -44,8 +44,8 @@
 
     .link-back{
         position: absolute;
-        border: 2px solid rgb(45, 45, 45);
-        background-color: rgb(21, 21, 21);
+        border: 2px solid $border-color;
+        background-color: $background-darker;
         border-radius: 50%;
         width: 40px;
         height: 40px;
@@ -59,7 +59,7 @@
         position: relative;
         top: 8px;
         left: 10px;
-        color: rgb(31, 31, 31);
+        color: $background-color;
         width: 15px;
     }
 }
@@ -76,7 +76,7 @@
     box-sizing: border-box;
     border-radius: 8px;
     font-size: 19px;
-    color: rgb(31, 31, 31);
+    color: $background-color;
     text-decoration: none;
     font-weight: 600;
     z-index: 1;
@@ -95,7 +95,7 @@
         left: 0;
         width: 0;
         height: 100%;
-        background: rgb(31, 31, 31);
+        background: $background-color;
         z-index: -1;
         transition: .5s;
     }

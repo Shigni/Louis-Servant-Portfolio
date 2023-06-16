@@ -1,26 +1,25 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import cross from "../../assets/cross.svg";
-import burger from "../../assets/burger.svg";
 
 export function Header() {
   const title = "Louis.";
 
   const [background__class, setBackgroundClass] = useState("background_class");
-  const [burger__img, setBurgerImg] = useState(burger);
+
+  const [burger__class, setBurgerClass] = useState("burger-bar unclicked");
   const [button__class, setButtonClass] = useState("button_class");
   const [nav__links, setNavLinksClass] = useState("nav_links");
   const [nav__link, setNavLinkClass] = useState("nav_link");
   const [isMenuActive, setIsMenuActive] = useState(false);
   const updateMenu = () => {
     if (!isMenuActive) {
-      setBurgerImg(cross);
+      setBurgerClass("burger-bar clicked");
       setButtonClass("button_class button_class-active");
       setNavLinksClass("nav_links nav_links-active");
       setNavLinkClass("nav_link nav_link-active");
       setBackgroundClass("background_class background_class-active");
     } else {
-      setBurgerImg(burger);
+      setBurgerClass("burger-bar unclicked");
       setButtonClass("button_class");
       setNavLinksClass("nav_links");
       setNavLinkClass("nav_link");
@@ -36,7 +35,9 @@ export function Header() {
       </NavLink>
       <div className={background__class}></div>
       <button className={button__class} onClick={updateMenu}>
-        <img src={burger__img} alt="Menu burger" />
+        <div className={burger__class}></div>
+        <div className={burger__class}></div>
+        <div className={burger__class}></div>
       </button>
       <div className={nav__links}>
         <NavLink

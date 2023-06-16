@@ -145,7 +145,7 @@ nav{
 
 .burger-bar.clicked{
     &:nth-child(1){
-        transform: rotate(45deg) translate(9px, 12.5px);
+        transform: rotate(45deg) translate(7.5px, 12.5px);
         transition: ease-out 0.5s;
     }
     &:nth-child(2){

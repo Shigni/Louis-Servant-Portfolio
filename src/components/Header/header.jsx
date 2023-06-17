@@ -5,7 +5,6 @@ export function Header() {
   const title = "Louis.";
 
   const [background__class, setBackgroundClass] = useState("background_class");
-
   const [burger__class, setBurgerClass] = useState("burger-bar unclicked");
   const [button__class, setButtonClass] = useState("button_class");
   const [nav__links, setNavLinksClass] = useState("nav_links");

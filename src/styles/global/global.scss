@@ -10,3 +10,9 @@ body {
 html {
     scroll-behavior: smooth;
   }
+
+  .blur-on{
+    @media screen and (max-width:500px) {
+        filter: blur(4px);
+    }
+}

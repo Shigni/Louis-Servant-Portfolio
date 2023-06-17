@@ -4,12 +4,13 @@
     opacity: 0;
     color: white;
     background-color: $background-darker;
-    border-radius: 10px;
+    @include bradius-small;
     padding: 20px;
     width: 40%;
     border-top: 1px solid $accent-color;
     border-left: 1px solid $accent-color;
     box-shadow: 5px 5px 10px 1px #0c0c0c;
+    transition: .5s;
     transform: translate(200%);
     animation: swipe 0.8s 0.3s ease forwards ;
     i {
@@ -24,7 +25,7 @@
         right: -5%;
         width: 80%;
     }
-    @media screen and (max-width:500px) {
+    @media screen and (max-width:$breakpoint-mobile-small) {
         right: 0;
         display: flex;
         flex-direction: column;

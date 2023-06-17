@@ -1,7 +1,6 @@
 import { skills } from "../../data/skills";
 
 export function Skills() {
-  console.log(skills);
   const skillList = skills.map((item, index) => (
     <li key={index} className="skillList">
       {item}

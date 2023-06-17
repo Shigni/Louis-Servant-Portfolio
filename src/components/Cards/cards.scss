@@ -3,8 +3,7 @@
   justify-content: center;
   width: 100%;
   gap: 50px;
-  border-radius: 50%;
-  // margin: 43px 0;
+  @include bradius-circle;
   flex-wrap: wrap;
   @media screen and (max-width: 780px) {
     flex-direction: column;
@@ -13,7 +12,7 @@
    @media screen and (min-width: 1220px) and (max-width: 1280px) {
     gap: 20px;
    }
-   @media screen and (max-width:500px) {
+   @media screen and (max-width:$breakpoint-mobile-small) {
     gap: 20px;;
    }
 }
@@ -44,7 +43,7 @@
   & img {
       display: flex;
        width: 100%;
-      border-radius: 50%;
+       @include bradius-circle;
       object-fit: cover;
       transition: 0.3s;
   }
@@ -57,7 +56,7 @@
       bottom: 0;
       background: $linear-cards;
       @include fullscreen;
-      border-radius: 50%;
+      @include bradius-circle;
   }
   &__title {
       padding-bottom: 20px;
@@ -68,7 +67,7 @@
   }
   &:hover,
   &:focus {
-    border-radius: 10px;
+    @include bradius-small;
     width: 480px;
     @media screen and (max-width: 850px) {
      width: 430px; 
@@ -76,12 +75,12 @@
      @media screen and (max-width: 780px) {
       width: 480px;
      }
-     @media screen and (max-width:500px) {
+     @media screen and (max-width:$breakpoint-mobile-small) {
       width: 380px;
      }
     @include boxShadow;
     img{
-      border-radius: 10px;
+      @include bradius-small;
     }
     .thumbnail{
       opacity: 0;
@@ -95,7 +94,7 @@
       transition: 0.2s;
     }
     .card-project__layer{
-      border-radius: 10px;
+      @include bradius-small;
     }
   }
 }

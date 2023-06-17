@@ -4,6 +4,7 @@
     width: 768px;
     height: 432px;
     overflow: hidden;
+    transition: .5s;
     @media screen and (max-width:1024px) {
         width: 640px;
         height: 360px;
@@ -23,13 +24,8 @@
     bottom: 0%;
     @include bradius-small;
     opacity: 0;
-    // @media screen and (min-width: $breakpoint-desktop) {  
-    //     @include bradius-small;
-    // }
-
     & img {
         @include fullscreen;
-        // object-fit: cover;
         position: absolute;
         left: 0%;
         right: 0%;

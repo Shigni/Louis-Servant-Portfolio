@@ -10,18 +10,30 @@ export function AboutMe() {
       </h1>
       <p>
         Développeur juste diplômé de 23 ans, dynamique, motivé et autonome.
-        Étant passionné par l’informatique et très créatif je possède beaucoup
-        de compétences Frontend et un peu Backend, j’ai pour ambition d’être
+        Étant passionné par l’informatique et très créatif j'ai acquis de
+        solides compétences en création de sites Web, j’ai pour ambition d’être
         full stack. Je cherche un poste de développeur web me permettant de
-        travailler sur différents projets
+        travailler sur différents projets.
       </p>
       <h2>
         Coordonnées <i class="ri-phone-line"></i>
       </h2>
       <p>
-        Louisservant86@gmail.com
+        <span>
+          <i class="ri-mail-line" alt="email">
+            {" "}
+            :
+          </i>
+        </span>{" "}
+        <a href="mailto:Louisservant86@gmail.com">Louisservant86@gmail.com</a>
         <br />
-        (+33) 6 84 66 53 84
+        <span>
+          <i class="ri-phone-line" alt="numéro de téléphone">
+            {" "}
+            :
+          </i>
+        </span>{" "}
+        <a href="tel:0684665384">(+33) 6 84 66 53 84</a>
       </p>
 
       <a href={cvdownload} className="link-cv-download" download={cvdownload}>

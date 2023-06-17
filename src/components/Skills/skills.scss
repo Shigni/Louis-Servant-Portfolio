@@ -6,11 +6,12 @@
     color: white;
     width: 40%;
     overflow: hidden;
-    border-radius: 10px;
+    @include bradius-small;
     padding:  20px ;
     border-top: 1px solid $accent-color;
     border-left: 1px solid $accent-color;
     box-shadow: 5px 5px 10px 1px #0c0c0c;
+    transition: .5s;
     transform: translate(-200%);
     animation: swipe 0.8s 0.4s ease forwards ;
     margin-bottom: 40px;
@@ -26,7 +27,7 @@
         width: 80%;
         right: 5%;
     }
-    @media screen and (max-width:500px) {
+    @media screen and (max-width:$breakpoint-mobile-small) {
         right: 0;
         display: flex;
         flex-direction: column;

@@ -4,12 +4,13 @@
     width: 40%;
     opacity: 0;
     background-color: $background-darker;
-    border-radius: 10px;
+    @include bradius-small;
     padding: 20px;
     border-top: 1px solid $accent-color;
     border-left: 1px solid $accent-color;
     box-shadow: 5px 5px 10px 1px #0c0c0c;
     color: white;
+    transition: .5s;
     transform: translate(-200%);
     animation: swipe 0.8s 0.2s ease forwards;
     i{
@@ -25,7 +26,7 @@
         width: 80%;
         right: 5%;
     }
-    @media screen and (max-width:500px) {
+    @media screen and (max-width:$breakpoint-mobile-small) {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -58,7 +59,7 @@
             }
             .mysql, .nodejs{
                 background-color: white;
-                border-radius: 50%;
+                @include bradius-circle;
                 padding: 3px;
                 box-sizing: border-box;
             }
@@ -79,7 +80,7 @@
                     height: 100%;
                     width: 100%;
                     background: $background-darker;
-                    border-radius: 10px;
+                    @include bradius-small;
                     animation: scale-load 0.8s 1s forwards;
                 }
                 div {
@@ -87,7 +88,7 @@
                     width: 15px;
                     background-color: $accent-color;
                     height: 5px;
-                    border-radius: 10px;
+                    @include bradius-small;
                     
                     }
                 }

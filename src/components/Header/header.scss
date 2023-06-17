@@ -46,7 +46,6 @@ nav{
         .active {
             color:$accent-color;
             background-color: $background-color;
-            // text-decoration: underline;
             border-bottom: 2px solid $background-color;
             border-left: 2px solid $border-color;
             border-right: 2px solid $border-color;
@@ -121,7 +120,7 @@ nav{
     transition: 0.4s;
 }
 @media screen and (max-width: 500px){
-.background_class-active{
+    .background_class-active{
     display: flex;
     position: fixed;
     left: 0;
@@ -145,7 +144,7 @@ nav{
 
 .burger-bar.clicked{
     &:nth-child(1){
-        transform: rotate(45deg) translate(7.5px, 12.5px);
+        transform: rotate(45deg) translate(8.5px, 12.5px);
         transition: ease-out 0.5s;
     }
     &:nth-child(2){
@@ -153,7 +152,7 @@ nav{
         transition: ease-out 0.5s;
     }
     &:nth-child(3){
-        transform: rotate(135deg) translate(-5px, 10px);
+        transform: rotate(135deg) translate(-5.5px, 10px);
         transition: ease-out 0.5s;
     }
 }

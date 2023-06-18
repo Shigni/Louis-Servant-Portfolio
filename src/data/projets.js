@@ -4,7 +4,7 @@ export const data = [
     title: "Wealth health - HRnet",
     subtitle: "Faire passer une librairie jQuery vers React",
     cover: "https://i.ibb.co/C22Q9Qf/wealthhealth-Logo-Resized1.png",
-    image1: "https://i.ibb.co/X41p4qg/wealth1.png",
+    preview: "https://i.ibb.co/X41p4qg/wealth1.png",
     pictures: [
       "https://i.ibb.co/X41p4qg/wealth1.png",
       "https://i.ibb.co/qxtpxSn/wealth2.png",
@@ -22,7 +22,7 @@ export const data = [
     subtitle:
       "Utiliser une API pour un compte utilisateur bancaire avec React ",
     cover: "https://i.ibb.co/0VJQMGs/argent-Bank-Logo-Resize.png",
-    image1: "https://i.ibb.co/Y87HsYn/argent1.png",
+    preview: "https://i.ibb.co/Y87HsYn/argent1.png",
     pictures: [
       "https://i.ibb.co/Y87HsYn/argent1.png",
       "https://i.ibb.co/kcx53Mg/argent2.png",
@@ -39,7 +39,7 @@ export const data = [
     title: "SportSee",
     subtitle: "Développer un tableau de bord d'analytics avec React",
     cover: "https://i.ibb.co/Sf4nggc/sport-See-Logo-Resized.png",
-    image1: "https://i.ibb.co/NTdDhc0/sport1.png",
+    preview: "https://i.ibb.co/NTdDhc0/sport1.png",
     pictures: [
       "https://i.ibb.co/NTdDhc0/sport1.png",
       "https://i.ibb.co/FWjKhdh/sport2.png",
@@ -57,7 +57,7 @@ export const data = [
     title: "Kasa",
     subtitle: "Développer une application Web avec React et React Router",
     cover: "https://i.ibb.co/5n8XhG6/kasa-Logo-Resized.png",
-    image1: "https://i.ibb.co/smBF25R/kasa1.png",
+    preview: "https://i.ibb.co/smBF25R/kasa1.png",
     pictures: [
       "https://i.ibb.co/smBF25R/kasa1.png",
       "https://i.ibb.co/CVCzNdt/kasa2.png",
@@ -73,7 +73,7 @@ export const data = [
     title: "Learn@Home",
     subtitle: "Définir les besoins pour une app de soutien scolaire",
     cover: "https://i.ibb.co/MPJKKWQ/learn-Logo-Resized.png",
-    image1: "https://i.ibb.co/f4NtJ9n/learn1.png",
+    preview: "https://i.ibb.co/f4NtJ9n/learn1.png",
     pictures: [
       "https://i.ibb.co/f4NtJ9n/learn1.png",
       "https://i.ibb.co/sPmDyvb/learn2.png",
@@ -90,7 +90,7 @@ export const data = [
     title: "Billed",
     subtitle: "Débugger et tester un SaaS RH",
     cover: "https://i.ibb.co/SNw0Zmk/Billed-Logo-Resized.png",
-    image1: "https://i.ibb.co/VvNbMgt/billed.png",
+    preview: "https://i.ibb.co/VvNbMgt/billed.png",
     pictures: [
       "https://i.ibb.co/VvNbMgt/billed.png",
       "https://i.ibb.co/w0QtX8j/billed2.png",
@@ -106,7 +106,7 @@ export const data = [
     title: "Groupomania",
     subtitle: "Créer un réseau social d'entreprise",
     cover: "https://i.ibb.co/8MGr0gM/groupomanialogo.png",
-    image1: "https://i.ibb.co/LNhVZ9M/groupo1.png",
+    preview: "https://i.ibb.co/LNhVZ9M/groupo1.png",
     pictures: [
       "https://i.ibb.co/LNhVZ9M/groupo1.png",
       "https://i.ibb.co/g7Fb8G3/groupo2.png",
@@ -123,7 +123,7 @@ export const data = [
     title: "Les petits plats",
     subtitle: "Développer un algorithme de recherche en JavaScript",
     cover: "https://i.ibb.co/nMGkjtg/LPPLogo-Resized.png",
-    image1: "https://i.ibb.co/dcBnB82/LPP1.png",
+    preview: "https://i.ibb.co/dcBnB82/LPP1.png",
     pictures: [
       "https://i.ibb.co/dcBnB82/LPP1.png",
       "https://i.ibb.co/sy81c3t/LPP2.png",
@@ -141,7 +141,7 @@ export const data = [
     subtitle:
       "Créer un site web accessible pour une plateforme de photographes",
     cover: "https://i.ibb.co/h18JQDB/fisheye-Logo-Resized.png",
-    image1: "https://i.ibb.co/9w2CqwF/fisheye1.png",
+    preview: "https://i.ibb.co/9w2CqwF/fisheye1.png",
     pictures: [
       "https://i.ibb.co/9w2CqwF/fisheye1.png",
       "https://i.ibb.co/2gndf8v/fisheye2.png",
@@ -157,7 +157,7 @@ export const data = [
     title: "GameOn",
     subtitle: "Créer une landing page avec JavaScript",
     cover: "https://i.ibb.co/hdHchj5/Gameon-Logo-Resized.png",
-    image1: "https://i.ibb.co/YkZ4YHh/gameon1.png",
+    preview: "https://i.ibb.co/YkZ4YHh/gameon1.png",
     pictures: [
       "https://i.ibb.co/YkZ4YHh/gameon1.png",
       "https://i.ibb.co/9ggqBCD/gameon2.png",
@@ -172,7 +172,7 @@ export const data = [
     title: "OhMyFood",
     subtitle: "Dynamiser une page web avec des animations CSS",
     cover: "https://i.ibb.co/CQft6Vn/ohmyfood-Logo-Resized.png",
-    image1: "https://i.ibb.co/F8gJMdL/food1.png",
+    preview: "https://i.ibb.co/F8gJMdL/food1.png",
     pictures: [
       "https://i.ibb.co/F8gJMdL/food1.png",
       "https://i.ibb.co/b6S9hc0/food2.png",
@@ -187,7 +187,7 @@ export const data = [
     title: "SoPekocko",
     subtitle: "Dynamiser une page web avec des animations CSS",
     cover: "https://i.ibb.co/WpgXWn3/so-Pekocko-Logo-Resized.png",
-    image1: "https://i.ibb.co/WpgXWn3/so-Pekocko-Logo-Resized.png",
+    preview: "https://i.ibb.co/WpgXWn3/so-Pekocko-Logo-Resized.png",
     pictures: ["https://i.ibb.co/WpgXWn3/so-Pekocko-Logo-Resized.png"],
     skill: "JavaScript, MySql, Scss, API REST, Express",
     link: "https://github.com/Shigni/So-Pekocko",
@@ -199,7 +199,7 @@ export const data = [
     title: "Orinoco",
     subtitle: "Construire un site e-commerce",
     cover: "https://i.ibb.co/7nY1Jmh/orinoco-Logo-Resized.png",
-    image1: "https://i.ibb.co/7nY1Jmh/orinoco-Logo-Resized.png",
+    preview: "https://i.ibb.co/7nY1Jmh/orinoco-Logo-Resized.png",
     pictures: ["https://i.ibb.co/7nY1Jmh/orinoco-Logo-Resized.png"],
     skill: "Html, JavaScript, MySql, Scss",
     link: "https://github.com/Shigni/Orinoco",

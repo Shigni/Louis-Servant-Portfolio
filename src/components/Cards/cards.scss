@@ -28,7 +28,7 @@
   transition: 0.2s;
   width: 350px;
   height: 350px;
-    .image1{
+    .preview{
         height: 100%;
         width: 100%;
         position: absolute;
@@ -85,7 +85,7 @@
     .thumbnail{
       opacity: 0;
     }
-    .image1{
+    .preview{
       opacity: 1;
       display: flex;
     }

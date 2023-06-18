@@ -1,8 +1,8 @@
-export function Card({ cover, image1, subtitle }) {
+export function Card({ cover, preview, subtitle, alt_title }) {
   return (
     <article className="card-project">
-      <img className="thumbnail" src={cover} alt="Project thumbnail" />
-      <img className="image1" src={image1} alt="Project thumbnail" />
+      <img className="thumbnail" src={cover} alt={alt_title + " thumbnail"} />
+      <img className="preview" src={preview} alt={alt_title} />
       <div className="card-project__layer">
         <div className="title-padding">
           <p className="card-project__title">{subtitle}</p>

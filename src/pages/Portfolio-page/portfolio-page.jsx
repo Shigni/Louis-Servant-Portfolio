@@ -18,8 +18,9 @@ export function PortfolioPage() {
               <Link className="link-card-project" to={`/projects/${data.id}`}>
                 <Card
                   cover={data.cover}
-                  image1={data.image1}
+                  preview={data.preview}
                   subtitle={data.subtitle}
+                  alt_title={data.title}
                 />
               </Link>
             </div>

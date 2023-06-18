@@ -185,7 +185,8 @@ export const data = [
   {
     id: "SoPekocko",
     title: "SoPekocko",
-    subtitle: "Dynamiser une page web avec des animations CSS",
+    subtitle:
+      "Construisez une API sécurisée pour une application d'avis gastronomiques",
     cover: "https://i.ibb.co/WpgXWn3/so-Pekocko-Logo-Resized.png",
     preview: "https://i.ibb.co/WpgXWn3/so-Pekocko-Logo-Resized.png",
     pictures: ["https://i.ibb.co/WpgXWn3/so-Pekocko-Logo-Resized.png"],

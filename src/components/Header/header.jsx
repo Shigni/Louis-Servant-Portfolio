@@ -1,7 +1,7 @@
+/* eslint-disable no-unused-vars */
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { useEffect } from "react";
 
 export function Header() {
   const { t, i18n } = useTranslation();

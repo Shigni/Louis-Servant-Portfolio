@@ -43,6 +43,11 @@
         span{
             color: $accent-color;
         }
+        .rncp{
+            color: white;
+            font-weight: 400;
+            font-size: 16px;
+        }
         &::before{
             content: '';
             position: absolute;

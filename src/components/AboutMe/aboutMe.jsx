@@ -1,26 +1,23 @@
+import { useTranslation } from "react-i18next";
 import CV from "../../assets/CV-Louis-Servant.pdf";
 
 export function AboutMe() {
   const cvdownload = CV;
+  // eslint-disable-next-line no-unused-vars
+  const [t, i18n] = useTranslation("aboutMe");
 
   return (
     <div className="about-container">
       <h1>
-        Louis Servant <i class="ri-user-line"></i>
+        {t("about.title")} <i className="ri-user-line"></i>
       </h1>
-      <p>
-        Développeur juste diplômé de 23 ans, dynamique, motivé et autonome.
-        Étant passionné par l’informatique et très créatif j'ai acquis de
-        solides compétences en création de sites Web, j’ai pour ambition d’être
-        full stack. Je cherche un poste de développeur web me permettant de
-        travailler sur différents projets.
-      </p>
+      <p>{t("about.message")}</p>
       <h2>
-        Coordonnées <i class="ri-phone-line"></i>
+        {t("about.subtitle")} <i className="ri-phone-line"></i>
       </h2>
       <p>
         <span>
-          <i class="ri-mail-line" alt="email">
+          <i className="ri-mail-line" alt="email">
             {" "}
             :
           </i>
@@ -28,7 +25,7 @@ export function AboutMe() {
         <a href="mailto:Louisservant86@gmail.com">Louisservant86@gmail.com</a>
         <br />
         <span>
-          <i class="ri-phone-line" alt="numéro de téléphone">
+          <i className="ri-phone-line" alt="numéro de téléphone">
             {" "}
             :
           </i>
@@ -37,7 +34,7 @@ export function AboutMe() {
       </p>
 
       <a href={cvdownload} className="link-cv-download" download={cvdownload}>
-        Mon CV
+        {t("about.button")}
       </a>
     </div>
   );

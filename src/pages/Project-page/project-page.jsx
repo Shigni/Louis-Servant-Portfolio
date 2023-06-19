@@ -1,15 +1,15 @@
 import { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-
+import { useTranslation } from "react-i18next";
 import left from "../../assets/vector-left.svg";
-import { data } from "../../data/projets";
 import { Carrousel, Error } from "../../components";
 
 export function Project() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
+  const [t, i18n] = useTranslation("projets");
+  const data = t("projetsData.projets", { returnObjects: true });
   const params = useParams();
 
   const project = data.find(({ id }) => id === params.id);
@@ -33,7 +33,7 @@ export function Project() {
         <Carrousel frames={framePics} />
         <p>{project.description}</p>
         <a className="link-project-page" target="blank" href={project.link}>
-          Code source
+          {t("projetsData.button")}
         </a>
       </div>
     )

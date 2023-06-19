@@ -1,7 +1,10 @@
-import { skills } from "../../data/skills";
+import { useTranslation } from "react-i18next";
 
 export function Skills() {
-  const skillList = skills.map((item, index) => (
+  const [t, i18n] = useTranslation("aboutMe");
+  const allSkills = t("skills.skillsList", { returnObjects: true });
+
+  const skillList = allSkills.map((item, index) => (
     <li key={index} className="skillList">
       {item}
     </li>
@@ -9,7 +12,7 @@ export function Skills() {
   return (
     <div className="skills-container">
       <h1>
-        Compétences <i class="ri-pencil-ruler-2-line"></i>
+        {t("skills.title")} <i className="ri-pencil-ruler-2-line"></i>
       </h1>
       <ul className="skills">{skillList}</ul>
     </div>

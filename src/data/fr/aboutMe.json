@@ -1,0 +1,35 @@
+{
+  "landingPage":{
+    "subtitle":"Développeur Web / Frontend"
+  },
+  "about":{
+    "title": "Louis Servant",
+    "subtitle":"Coordonnées",
+    "message": "Développeur juste diplômé de 23 ans, dynamique, motivé et autonome. Étant passionné par l’informatique et très créatif je me suis lancé dans le développement web et j'ai acquis de solides compétences en création de sites Web, j’ai pour ambition d’être full stack. Je cherche un poste de développeur web me permettant de travailler sur différents projets.",
+    "button": "Mon CV"
+  },
+  "formation":{
+    "title": "Formations",
+    "trainingTitle1": "Développer d'application - JavaScript React",
+    "date1":"Septembre 2021 -  Juin 2023",
+    "description1":"Réalisation de 14 projets professionnalisants avec mises en situations. Ce parcours m'a permis de renforcer encore plus mes compétences frontend ainsi que toutes les qualités nécessaires à ce métier. Mais aussi d'apprendre a travailler avec les méthodes Agiles et le coté UX/UI design du métier.",
+    "trainingTitle2": "Développer Web",
+    "date2":"Novembre 2020 -  Juillet 2021",
+    "description2":"Réalisation de 7 projets professionnalisants avec mises en situations. Ce parcours m'a appris les bases du fullstack JavaScript grace à des projet front et backend. Il m'a aussi appris les bonnes pratiques à respecter pour travailler seul ou en équipe, Ainsi que les standards en terme de SEO et référencement naturel."
+  },
+  "skills":{
+    "title":"Compétences",
+    "skillsList":[
+      "Maîtrise de technologies comme: HTML, CSS, JavaScript, TypeScript, SASS, NPM, Node.js, Express, MySql, MongoDB",
+      "Maîtrise de frameworks tel que React et Angular.",
+      "Respect des standards et les bonnes pratiques(accessibilité, référencement, performances…).",
+      "S’assurer d’un rendu optimal sur l’ensemble des principaux navigateurs du marché.",
+      "Appliquer les principes du Responsive Web Design",
+      "Définir les besoins pour une application Web",
+      "Livrer du code de qualité, optimisé et maintenable par d’autres.",
+      "Analyser et prendre en charge les fonctionnalités décrites dans le Cahier des charges.",
+      "Accompagner aux choix des solutions techniques.",
+      "Utiliser la méthode Agile (SCRUM, Kanban)",
+      "Maîtrise de l’anglais"
+    ] }
+}

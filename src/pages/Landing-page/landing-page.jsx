@@ -1,14 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import LinkedinLogo from "../../assets/logo/linkedin-logo.svg";
 import GithubLogo from "../../assets/logo/github.svg";
 
 export function LandingPage() {
+  const [t, i18n] = useTranslation("aboutMe");
   return (
     <>
       <main className="landing-page">
         <h1>Louis Servant</h1>
-        <p>Frontend developer</p>
+        <p>{t("landingPage.subtitle")}</p>
         <div className="btn-box">
           <Link className="link-landing-page" to={"/portfolio"}>
             Portfolio

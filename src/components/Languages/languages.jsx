@@ -13,7 +13,7 @@ export function Languages() {
   return (
     <div className="languages-container">
       <h1>
-        Technologies <i class="ri-code-s-slash-line"></i>
+        Technologies <i className="ri-code-s-slash-line"></i>
       </h1>
       <ul className="languages-list">
         <li>

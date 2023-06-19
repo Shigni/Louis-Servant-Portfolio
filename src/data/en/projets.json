@@ -1,0 +1,215 @@
+{
+  "projetsData":{
+"projets":[
+      {
+        "id": "Wealth health",
+        "title": "Wealth health - HRnet 1",
+        "subtitle": "Converting a jQuery library to React",
+        "cover": "https://i.ibb.co/C22Q9Qf/wealthhealth-Logo-Resized1.png",
+        "preview": "https://i.ibb.co/X41p4qg/wealth1.png",
+        "pictures": [
+          "https://i.ibb.co/X41p4qg/wealth1.png",
+          "https://i.ibb.co/qxtpxSn/wealth2.png",
+          "https://i.ibb.co/BLr2fJx/wealth3.png",
+          "https://i.ibb.co/n0nTkqf/wealth4.png"
+        ],
+        "link": "https://github.com/Shigni/LouisServant_14_29062023",
+        "skill": "React, JavaScript, Scss",
+        "description":
+          "Make a new version of the HRnet application using React to make it more efficient and reduce technical debt, the application used jQuery. Modal, date picker, dropdown and dataTable plugin conversion and make one of the component an npm package. Addition of a state management system."
+      },
+      {
+        "id": "Argent Bank",
+        "title": "Argent Bank",
+        "subtitle":
+          "Use an API for a bank user account with React",
+        "cover": "https://i.ibb.co/0VJQMGs/argent-Bank-Logo-Resize.png",
+        "preview": "https://i.ibb.co/Y87HsYn/argent1.png",
+        "pictures": [
+          "https://i.ibb.co/Y87HsYn/argent1.png",
+          "https://i.ibb.co/kcx53Mg/argent2.png",
+          "https://i.ibb.co/vvsv1cW/argent3.png",
+          "https://i.ibb.co/PQBR5ws/argent4.png"
+        ],
+        "link": "https://github.com/Shigni/LouisServant_13_28022023",
+        "skill": "React, JavaScript, Scss",
+        "description":
+          "Argent Bank, a new bank trying to break into the industry and need help setting up their app. It was necessary to Authenticate to an API, implement a state manager in a React application. Interact, model and document an API."
+      },
+      {
+        "id": "SportSee",
+        "title": "SportSee",
+        "subtitle": "Develop an analytics dashboard with React",
+        "cover": "https://i.ibb.co/Sf4nggc/sport-See-Logo-Resized.png",
+        "preview": "https://i.ibb.co/NTdDhc0/sport1.png",
+        "pictures": [
+          "https://i.ibb.co/NTdDhc0/sport1.png",
+          "https://i.ibb.co/FWjKhdh/sport2.png",
+          "https://i.ibb.co/CvDgGc3/sport3.png",
+          "https://i.ibb.co/f1ZkGqD/sport4.png",
+          "https://i.ibb.co/0qPVZvc/sport5.png"
+        ],
+        "link": "https://github.com/Shigni/LouisServant_12_12022023",
+        "skill": "React, JavaScript, Scss",
+        "description":
+          "For the new version of the sports coaching application which should allow the user to follow the number of sessions carried out as well as the number of calories burned, it was necessary to: Produce technical documentation, ensure the quality of the application data , develop advanced graphical elements using JavaScript libraries and interact with a web service."
+      },
+      {
+        "id": "Kasa",
+        "title": "Kasa",
+        "subtitle": "Develop a web application with React and React Router",
+        "cover": "https://i.ibb.co/5n8XhG6/kasa-Logo-Resized.png",
+        "preview": "https://i.ibb.co/smBF25R/kasa1.png",
+        "pictures": [
+          "https://i.ibb.co/smBF25R/kasa1.png",
+          "https://i.ibb.co/CVCzNdt/kasa2.png",
+          "https://i.ibb.co/3sSzp0D/kasa3.png"
+        ],
+        "link": "https://github.com/Shigni/LouisServant_11_29012023",
+        "skill": "React, JavaScript, Scss",
+        "description":
+          "The Kasa website was coded more than 10 years ago in ASP.NET with significant legacy code. For the redesign it was necessary to create the components with React, develop the routes with React Router and initialize it with a framework."
+      },
+      {
+        "id": "Learn@Home",
+        "title": "Learn@Home",
+        "subtitle": "Define the needs for a tutoring app",
+        "cover": "https://i.ibb.co/MPJKKWQ/learn-Logo-Resized.png",
+        "preview": "https://i.ibb.co/f4NtJ9n/learn1.png",
+        "pictures": [
+          "https://i.ibb.co/f4NtJ9n/learn1.png",
+          "https://i.ibb.co/sPmDyvb/learn2.png",
+          "https://i.ibb.co/xXt595r/learn3.png",
+          "https://i.ibb.co/3kd6NvV/learn4.png"
+        ],
+        "link": "https://github.com/Shigni/LouisServant_10_11062023",
+        "skill": "Maquettes, Diagrammes, User stories, Kanban",
+        "description":
+          "Learn@Home is an association that connects children with learning difficulties with volunteer tutors. It was necessary to contribute to the project using an agile methodology, model a technical solution for a client, create a model and identify the needs of the application from a specification."
+      },
+      {
+        "id": "Billed",
+        "title": "Billed",
+        "subtitle": "Debug and test an HR SaaS",
+        "cover": "https://i.ibb.co/SNw0Zmk/Billed-Logo-Resized.png",
+        "preview": "https://i.ibb.co/VvNbMgt/billed.png",
+        "pictures": [
+          "https://i.ibb.co/VvNbMgt/billed.png",
+          "https://i.ibb.co/w0QtX8j/billed2.png",
+          "https://i.ibb.co/C8D6yVj/billed3.png"
+        ],
+        "link": "https://github.com/Shigni/Louisservant_9_10112022",
+        "skill": "JavaScript, Scss, Jest, e2e test plan",
+        "description":
+          "Billed, a company that produces Saas solutions for human resources teams. We had to debug two paths with the Chrome Debugger and write unit and integration tests with JavaScript and write a manual end-to-end test plan for one of the two paths."
+      },
+      {
+        "id": "Groupomania",
+        "title": "Groupomania",
+        "subtitle": "Create a corporate social network",
+        "cover": "https://i.ibb.co/8MGr0gM/groupomanialogo.png",
+        "preview": "https://i.ibb.co/LNhVZ9M/groupo1.png",
+        "pictures": [
+          "https://i.ibb.co/LNhVZ9M/groupo1.png",
+          "https://i.ibb.co/g7Fb8G3/groupo2.png",
+          "https://i.ibb.co/60C5xQY/groupo3.png",
+          "https://i.ibb.co/wQgRc7X/groupo4.png"
+        ],
+        "skill": "Angular, TypeScript, JavaScript, MySql, Scss, Express",
+        "link": "https://github.com/Shigni/Groupomania",
+        "description":
+          "The project consists of building an internal social network for Groupomania employees. The purpose of this tool is to facilitate interactions between colleagues. It was necessary to be able to authenticate a user and maintain his session, Implement secure data storage using a database and develop the interface using a framework (Angular)."
+      },
+      {
+        "id": "Les petits plats",
+        "title": "Les petits plats",
+        "subtitle": "Develop a search algorithm in JavaScript",
+        "cover": "https://i.ibb.co/nMGkjtg/LPPLogo-Resized.png",
+        "preview": "https://i.ibb.co/dcBnB82/LPP1.png",
+        "pictures": [
+          "https://i.ibb.co/dcBnB82/LPP1.png",
+          "https://i.ibb.co/sy81c3t/LPP2.png",
+          "https://i.ibb.co/BNJQcST/LPP3.png",
+          "https://i.ibb.co/VgGsWRy/LPP4.png"
+        ],
+        "link": "https://github.com/Shigni/LouisServant_7_05052022",
+        "skill": "Html, JavaScript, Scss",
+        "description":
+          "The company wants to create its own cooking recipe site like Marmiton or 750g. It was necessary to analyze a computer problem and develop an algorithm to solve this problem."
+      },
+      {
+        "id": "Fisheye",
+        "title": "Fisheye",
+        "subtitle":
+          "Create an accessible website for a platform of photographers",
+        "cover": "https://i.ibb.co/h18JQDB/fisheye-Logo-Resized.png",
+        "preview": "https://i.ibb.co/9w2CqwF/fisheye1.png",
+        "pictures": [
+          "https://i.ibb.co/9w2CqwF/fisheye1.png",
+          "https://i.ibb.co/2gndf8v/fisheye2.png",
+          "https://i.ibb.co/Scg33Kr/fisheye3.png"
+        ],
+        "link": "https://github.com/Shigni/LouisServant_6_11022022",
+        "skill": "Html, JavaScript, Scss",
+        "description":
+          "FishEye is a website that allows freelance photographers to showcase their best work. We had to ensure the accessibility of a website, manage events with JavaScript, develop a modular web application with design patterns and write maintainable JavaScript code."
+      },
+      {
+        "id": "GameOn",
+        "title": "GameOn",
+        "subtitle": "Create a landing page with JavaScript",
+        "cover": "https://i.ibb.co/hdHchj5/Gameon-Logo-Resized.png",
+        "preview": "https://i.ibb.co/YkZ4YHh/gameon1.png",
+        "pictures": [
+          "https://i.ibb.co/YkZ4YHh/gameon1.png",
+          "https://i.ibb.co/9ggqBCD/gameon2.png"
+        ],
+        "skill": "Html, JavaScript, Scss",
+        "link": "https://github.com/Shigni/LouisServant_4_21012022",
+        "description":
+          "The project consists of creating a landing page and a modal based on models for a company specializing in conferences and game competitions. Programming in JavaScript"
+      },
+      {
+        "id": "OhMyFood",
+        "title": "OhMyFood",
+        "subtitle": "Energize a web page with CSS animations",
+        "cover": "https://i.ibb.co/CQft6Vn/ohmyfood-Logo-Resized.png",
+        "preview": "https://i.ibb.co/F8gJMdL/food1.png",
+        "pictures": [
+          "https://i.ibb.co/F8gJMdL/food1.png",
+          "https://i.ibb.co/b6S9hc0/food2.png"
+        ],
+        "skill": "Html, Scss",
+        "link": "https://github.com/Shigni/OhMyFood",
+        "description":
+          "Develop a “mobile first” site that lists the menus of gourmet restaurants, for this it was necessary to implement advanced CSS graphic effects, set up a navigation structure, ensure graphic consistency and use a version management system for the project monitoring and hosting."
+      },
+      {
+        "id": "SoPekocko",
+        "title": "SoPekocko",
+        "subtitle":
+          "Build a secure API for a food reviews app",
+        "cover": "https://i.ibb.co/WpgXWn3/so-Pekocko-Logo-Resized.png",
+        "preview": "https://i.ibb.co/WpgXWn3/so-Pekocko-Logo-Resized.png",
+        "pictures": ["https://i.ibb.co/WpgXWn3/so-Pekocko-Logo-Resized.png"],
+        "skill": "JavaScript, MySql, Scss, API REST, Express",
+        "link": "https://github.com/Shigni/So-Pekocko",
+        "description":
+          "SoPekocko is a web application allowing users to add their favorite sauces and like or dislike sauces added by other users. For the backend it was necessary to implement a logical data model according to the regulations, to implement CRUD operations in a secure way and to store data in a secure way."
+      },
+      {
+        "id": "Orinoco",
+        "title": "Orinoco",
+        "subtitle": "Build an e-commerce site",
+        "cover": "https://i.ibb.co/7nY1Jmh/orinoco-Logo-Resized.png",
+        "preview": "https://i.ibb.co/7nY1Jmh/orinoco-Logo-Resized.png",
+        "pictures": ["https://i.ibb.co/7nY1Jmh/orinoco-Logo-Resized.png"],
+        "skill": "Html, JavaScript, MySql, Scss",
+        "link": "https://github.com/Shigni/Orinoco",
+        "description":
+          "Create a test plan for an application, interact with a web service with JavaScript, validate data from external sources and manage JavaScript events."
+      }
+    ],
+  "button":"Source code"
+  }
+}

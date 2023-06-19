@@ -1,0 +1,37 @@
+{
+  "landingPage":{
+    "subtitle":"Frontend / Web developer"
+  },
+  "about":{
+    "title": "Louis Servant",
+    "subtitle":"Contact",
+    "message": "23-year-old just graduated developer, dynamic, motivated and autonomous. Being passionate about IT and very creative, I got into web development and acquired strong skills in creating websites. I aim to be full stack. I am looking for a job as a web developer allowing me to work on different projects.",
+    "button": "My Resume"
+  },
+  "formation":{
+    "title": "Trainings",
+    "trainingTitle1": "JavaScript React - App developer",
+    "date1":"September 2021 -  Jun 2023",
+    "description1":"Realization of 14 professionalizing projects with scenarios. This course allowed me to further strengthen my frontend skills as well as all the qualities necessary for this job. But also to learn to work with Agile methods and the UX/UI design side of the job.",
+    "trainingTitle2": "Web developer",
+    "date2":"November 2020 -  July 2021",
+    "description2":"Realization of 7 professionalizing projects with scenarios. This course taught me the basics of JavaScript fullstack thanks to front and backend projects. He also taught me the best practices to follow when working alone or in a team, as well as the standards in terms of SEO and natural referencing."
+  },
+  "skills":{
+    "title":"Skills",
+    "skillsList":[
+      "Mastery of technologies like: HTML, CSS, JavaScript, TypeScript, SASS, NPM, Node.js, Express, MySql, MongoDB",
+      "Mastery of frameworks like React and Angular.",
+      "Compliance with standards and best practices (accessibility, referencing, performance, etc.).",
+      "Ensure optimal rendering on all the main browsers on the market.",
+      "Appliquer les principes du Responsive Web Design",
+      "Apply the principles of Responsive Web Design",
+      "Deliver quality code, optimized and maintainable by others.",
+      "Analyze and support the functionalities described in the Specifications.",
+      "Support in the choice of technical solutions.",
+      "Use the Agile method (SCRUM, Kanban)",
+      "Mastery of english"
+    ]
+  }
+}
+

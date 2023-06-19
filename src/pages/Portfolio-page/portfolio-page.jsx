@@ -2,13 +2,15 @@ import React from "react";
 import { useEffect } from "react";
 import { Card } from "../../components";
 import { Link } from "react-router-dom";
-
-import { data } from "../../data/projets";
+import { useTranslation } from "react-i18next";
 
 export function PortfolioPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const [t, i18n] = useTranslation("projets");
+  const data = t("projetsData.projets", { returnObjects: true });
+
   return (
     <>
       <div className="cards-container">

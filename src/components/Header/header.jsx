@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 export function Header() {
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation("aboutMe");
 
   const languages = {
     en: { title: "En" },
@@ -55,7 +55,7 @@ export function Header() {
           to="/"
           onClick={updateMenu}
         >
-          Home
+          {t("header.home")}
         </NavLink>
         <NavLink
           activeclassname="active"
@@ -63,7 +63,7 @@ export function Header() {
           to="/about"
           onClick={updateMenu}
         >
-          About me
+          {t("header.about")}
         </NavLink>
         <NavLink
           activeclassname="active"
@@ -71,7 +71,7 @@ export function Header() {
           to="/portfolio"
           onClick={updateMenu}
         >
-          PortFolio
+          Portfolio
         </NavLink>
 
         <ul className={lang__class} id="languages">
@@ -79,9 +79,7 @@ export function Header() {
             <li key={language}>
               <button
                 style={{
-                  fontFamily: "roboto",
-                  fontWeight:
-                    i18n.resolvedLanguage === language ? "bold" : "normal",
+                  fontFamily: `Roboto, "sans-serif"`,
                   color:
                     i18n.resolvedLanguage === language
                       ? "rgb(21, 21, 21)"
@@ -91,8 +89,11 @@ export function Header() {
                       ? "rgb(83,193, 222)"
                       : "rgb(21, 21, 21)",
                 }}
-                type="submit"
-                onClick={() => i18n.changeLanguage(language)}
+                type="button"
+                onClick={() => {
+                  i18n.changeLanguage(language);
+                  updateMenu();
+                }}
               >
                 {languages[language].title}
               </button>

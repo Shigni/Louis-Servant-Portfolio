@@ -1,4 +1,8 @@
 {
+  "header": {
+    "home":"Accueil",
+    "about":"À propos"
+  },
   "landingPage":{
     "subtitle":"Développeur Web / Frontend"
   },

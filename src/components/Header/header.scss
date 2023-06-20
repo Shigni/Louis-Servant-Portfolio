@@ -72,12 +72,14 @@ nav{
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 30px;
-                height: 30px;
+                width: 28px;
+                height: 28px;
                 font-size: 19px;
+                font-weight: bold;
                 box-sizing: border-box;
-                margin: 5px;
-                border-radius: 8px;
+                margin: 3px;
+                border-radius: 6px;
+                cursor: pointer;
             }
         }
         .nav_link-active{

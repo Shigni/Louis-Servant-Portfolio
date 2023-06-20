@@ -17,7 +17,7 @@ export function LandingPage() {
             Portfolio
           </Link>
           <Link className="link-landing-page" to={"/about"}>
-            About me
+            {t("header.about")}
           </Link>
         </div>
         <div className="links">

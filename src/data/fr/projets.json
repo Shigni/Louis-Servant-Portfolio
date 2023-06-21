@@ -16,7 +16,7 @@
         "link": "https://github.com/Shigni/LouisServant_14_29062023",
         "skill": "React, JavaScript, Scss",
         "description":
-            "Faire une nouvelle version de l'application HRnet en utilisant React pour la rendre plus performante et réduire la dette technique, l'application utilisait jQuery. Convertion de plugin de modale, de selection de date, de dropdown et de dataTable et faire de l'un des composant un package npm. Ajout d'un système de state management."
+            "Faire une nouvelle version de l'application HRnet en utilisant React pour la rendre plus performante et réduire la dette technique, l'application utilisait jQuery. Conversion de plugin de modale, de selection de date, de dropdown et de dataTable et faire de l'un des composant un package npm. Ajout d'un système de state management."
         },
         {
         "id": "Argent Bank",

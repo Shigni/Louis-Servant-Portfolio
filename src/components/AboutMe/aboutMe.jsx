@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import CV from "../../assets/CV-Louis-Servant.pdf";
+import CV from "../../assets/Cv-LouisServant-2024.pdf";
 
 export function AboutMe() {
   const cvdownload = CV;
